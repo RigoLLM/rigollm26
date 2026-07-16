@@ -381,7 +381,7 @@ section { padding: 84px 0; }
   box-shadow: 0 10px 30px rgba(17, 35, 99, 0.08);
 }
 .contact-box h3 { margin: 0 0 6px; }
-.contact-box .big-email { font-size: 20px; font-weight: 700; margin: 16px 0 6px; }
+.contact-box .big-email { font-size: 16px; font-weight: 700; margin: 16px 0 6px; }
 
 /* ---------- Footer ---------- */
 .site-footer {
