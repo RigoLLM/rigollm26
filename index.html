@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RigoLLM 2026 — Symposium on Rigorous LLM Systems</title>
+  <meta name="description" content="RigoLLM 2026: Symposium on Rigorous LLM Systems, a full-day workshop co-located with USENIX ATC 2026 in Hong Kong. Advancing principled approaches to building LLM systems with explicit correctness guarantees.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home">
+        Rigo<span>LLM</span>
+        <small>ATC 2026 Workshop</small>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#topics">Topics</a></li>
+        <li><a href="#cfp">Call for Papers</a></li>
+        <li><a href="#dates">Dates</a></li>
+        <li><a href="#format">Format</a></li>
+        <li><a href="#organizers">Organizers</a></li>
+        <li><a href="#contact" class="cta">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <span class="eyebrow">Co-located with USENIX ATC 2026</span>
+      <h1>Symposium on <span class="accent">Rigorous</span> LLM Systems</h1>
+      <p class="subtitle">A community-driven forum advancing principled approaches to building
+        LLM systems that can be systematically checked, audited, and trusted — rather than assumed correct.</p>
+      <div class="hero-meta">
+        <div><span class="dot">&#9679;</span> November 15, 2026</div>
+        <div><span class="dot">&#9679;</span> Hyatt Hotel, Shatin, Hong Kong</div>
+        <div><span class="dot">&#9679;</span> Full-day, hybrid</div>
+      </div>
+      <div class="hero-actions">
+        <a href="#cfp" class="btn btn-primary">Call for Papers</a>
+        <a href="https://sigops.org/s/conferences/atc/2026/index.html" target="_blank" rel="noopener" class="btn btn-outline">About ATC 2026</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">About the Workshop</span>
+        <h2>Rigor for the LLM Era</h2>
+        <p>Correctness in LLM training, serving, and post-training has emerged as a central
+          bottleneck to further advances in model capability, reliability, and deployment at scale.</p>
+      </div>
+      <div class="about-grid">
+        <div>
+          <p class="lead">These challenges stem from the inherent stochasticity of learning algorithms
+            and the pervasive nondeterminism in modern LLM systems — amplified by rapidly evolving
+            hardware, distributed execution, and complex software toolchains. As a result, today's
+            LLM systems often rely on ad hoc testing, heuristics, and trust in opaque components.</p>
+          <p>RigoLLM brings together researchers and practitioners from <strong>systems, machine
+            learning, verification, and programming languages</strong> to examine foundations, tools,
+            and methodologies for rigor in LLM systems. It is a forum to articulate open problems,
+            share early results, and shape a research agenda toward LLM systems that can be
+            systematically checked, audited, and trusted.</p>
+        </div>
+        <div>
+          <div class="principle-card">
+            <h4>Rigor in techniques &amp; solutions</h4>
+            <p>Prioritizing formalism, systematic methods, and principled design over ad hoc heuristics.</p>
+          </div>
+          <div class="principle-card">
+            <h4>Non-ambiguity in problem formulation</h4>
+            <p>Formally defined problems with explicit correctness specifications — making LLM systems
+              checkable and analyzable as engineered systems.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Topics -->
+  <section id="topics">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Scope</span>
+        <h2>Topics of Interest</h2>
+        <p>We call for submissions on topics including, but not limited to:</p>
+      </div>
+      <div class="topics-grid">
+        <div class="topic-card"><span class="num">1</span><h4>Verification, Checking, and Formal Reasoning for LLM Systems</h4></div>
+        <div class="topic-card"><span class="num">2</span><h4>Numerical Correctness and Floating-Point Semantics in LLM Workloads</h4></div>
+        <div class="topic-card"><span class="num">3</span><h4>Algorithm-System-Hardware Co-Design and Correctness for LLMs</h4></div>
+        <div class="topic-card"><span class="num">4</span><h4>Correctness Specifications for LLM Systems</h4></div>
+        <div class="topic-card"><span class="num">5</span><h4>Designing Reliable and Trustworthy LLM Systems</h4></div>
+        <div class="topic-card"><span class="num">6</span><h4>Principled Methods and Methodologies for Rigorous LLM Evaluation</h4></div>
+        <div class="topic-card"><span class="num">7</span><h4>Agents and AI-Driven System Techniques with Correctness Guarantees</h4></div>
+        <div class="topic-card"><span class="num">8</span><h4>Correctness Across the LLM Lifecycle</h4></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Call for Papers -->
+  <section id="cfp" class="section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Participate</span>
+        <h2>Call for Papers</h2>
+        <p>Authors may submit in one of the following categories. All accepted submissions are
+          encouraged to present a poster to facilitate interaction and discussion.</p>
+      </div>
+      <div class="cfp-grid">
+        <div class="cat-card">
+          <span class="tag">Up to 4 pages</span>
+          <h4>Research Papers</h4>
+          <p>Work in the broad area of rigorous LLM systems. Submissions may present completed
+            techniques or novel and promising ideas that require further development.</p>
+        </div>
+        <div class="cat-card">
+          <span class="tag">1 page</span>
+          <h4>Extended Abstracts</h4>
+          <p>Researchers and practitioners are invited to describe early-stage work that is not
+            yet ready for full publication.</p>
+        </div>
+        <div class="cat-card">
+          <span class="tag">Invited / revisited</span>
+          <h4>High-Impact Work</h4>
+          <p>Submissions that revisit previously published results from a new perspective, or
+            describe extensions of prior work by the authors.</p>
+        </div>
+      </div>
+      <div class="note">
+        <strong>Evaluation.</strong> Submissions are evaluated on originality, technical merit,
+        topical relevance, value to the community, and potential to stimulate insightful discussion.
+        Submissions are kept confidential. Authors may choose whether to include their papers in the
+        proceedings, to encourage open discussion and the presentation of early-stage ideas.
+      </div>
+    </div>
+  </section>
+
+  <!-- Important Dates -->
+  <section id="dates">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Timeline</span>
+        <h2>Important Dates</h2>
+      </div>
+      <div class="dates-table">
+        <div class="date-row"><span class="label">Papers due</span><span class="value">August 10, 2026</span></div>
+        <div class="date-row"><span class="label">Notification of acceptance</span><span class="value">September 10, 2026</span></div>
+        <div class="date-row"><span class="label">Camera-ready submission</span><span class="value">September 20, 2026</span></div>
+        <div class="date-row highlight"><span class="label">Workshop day</span><span class="value">November 15, 2026</span></div>
+      </div>
+      <p class="tentative-note">All dates are tentative and given in AoE. The workshop takes place during ATC 2026 (Nov 15–18, 2026).</p>
+    </div>
+  </section>
+
+  <!-- Format -->
+  <section id="format" class="section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Program</span>
+        <h2>Workshop Format</h2>
+        <p>A full-day hybrid event supporting both in-person and remote participation, combining
+          invited keynotes, paper presentations, a poster session, and a structured round-table discussion.</p>
+      </div>
+      <div class="format-grid">
+        <div class="format-card">
+          <div class="ico">&#9733;</div>
+          <h4>Keynotes</h4>
+          <p>One research-oriented keynote and one industry keynote presenting operational experience.</p>
+        </div>
+        <div class="format-card">
+          <div class="ico">&#9776;</div>
+          <h4>Paper Presentations</h4>
+          <p>Research papers, extended abstracts, and invited talks on recent high-impact published work.</p>
+        </div>
+        <div class="format-card">
+          <div class="ico">&#9635;</div>
+          <h4>Poster Session</h4>
+          <p>A unified poster session where all accepted and presented work promotes direct interaction.</p>
+        </div>
+        <div class="format-card">
+          <div class="ico">&#9673;</div>
+          <h4>Round-Table</h4>
+          <p>A two-hour organizer-led discussion on foundational questions and core unsolved problems.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Organizers -->
+  <section id="organizers">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Committee</span>
+        <h2>Organizing Committee</h2>
+      </div>
+      <div class="org-grid">
+        <div class="org-card">
+          <div class="org-head">
+            <div class="avatar">CT</div>
+            <div>
+              <h4>Cheng Tan <span class="primary-badge">Primary contact</span></h4>
+              <div class="affil">Northeastern University</div>
+            </div>
+          </div>
+          <p class="bio">Assistant professor at Khoury College of Computer Sciences. Recipient of the
+            SOSP'17 Best Paper Award, ASPLOS'23 Distinguished Artifact Award, MSRA StarTrack Scholar,
+            and NSF CAREER Award. Chaired New England Systems Day'25, the OSDI'25 mentoring program,
+            and the VLDB SCCP'26 workshop.</p>
+          <div class="email"><a href="mailto:c.tan@northeastern.edu">c.tan@northeastern.edu</a></div>
+        </div>
+
+        <div class="org-card">
+          <div class="org-head">
+            <div class="avatar">YM</div>
+            <div>
+              <h4>Youshan Miao</h4>
+              <div class="affil">Microsoft Research</div>
+            </div>
+          </div>
+          <p class="bio">Principal Researcher at Microsoft Research Asia, specializing in large-scale
+            AI systems, distributed training, and infrastructure for LLMs. Core contributor to nnScaler,
+            which supported pre-training and fine-tuning of Microsoft's in-house language models
+            including YOCO and DiffTransformer.</p>
+          <div class="email"><a href="mailto:yomia@microsoft.com">yomia@microsoft.com</a></div>
+        </div>
+
+        <div class="org-card">
+          <div class="org-head">
+            <div class="avatar">CL</div>
+            <div>
+              <h4>Chang Lou</h4>
+              <div class="affil">University of Virginia</div>
+            </div>
+          </div>
+          <p class="bio">Tenure-track Assistant Professor in the Department of Computer Science. His
+            research focuses on building robust and highly available distributed systems. He received
+            his Ph.D. from Johns Hopkins University in 2023.</p>
+          <div class="email"><a href="mailto:chlou@virginia.edu">chlou@virginia.edu</a></div>
+        </div>
+
+        <div class="org-card">
+          <div class="org-head">
+            <div class="avatar">ZZ</div>
+            <div>
+              <h4>Zhen Zhang</h4>
+              <div class="affil">AWS</div>
+            </div>
+          </div>
+          <p class="bio">Senior Applied Scientist at Amazon Web Services, specializing in large-scale
+            distributed training and reliability for large language models and multi-modal systems.
+            He earned his Ph.D. in Computer Science from Johns Hopkins University in 2022.</p>
+          <div class="email"><a href="mailto:zhzhn@amazon.com">zhzhn@amazon.com</a></div>
+        </div>
+
+        <div class="org-card">
+          <div class="org-head">
+            <div class="avatar">YL</div>
+            <div>
+              <h4>Yunchi Lu</h4>
+              <div class="affil">University of Michigan</div>
+            </div>
+          </div>
+          <p class="bio">Ph.D. candidate in Computer Science and Engineering. His research focuses on
+            the correctness, reliability, and stability of ML systems and AI infrastructure, with an
+            emphasis on parallelization correctness for distributed training.</p>
+          <div class="email"><a href="mailto:yunchi@umich.edu">yunchi@umich.edu</a></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section-alt">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Get in Touch</span>
+        <h2>Contact</h2>
+      </div>
+      <div class="contact-box">
+        <h3>Questions about RigoLLM 2026?</h3>
+        <p>Reach out to the primary contact, Cheng Tan (Northeastern University).</p>
+        <div class="big-email"><a href="mailto:c.tan@northeastern.edu">c.tan@northeastern.edu</a></div>
+        <p>For venue, registration, and travel, see the
+          <a href="https://sigops.org/s/conferences/atc/2026/index.html" target="_blank" rel="noopener">ATC 2026 website</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="fbrand">Rigo<span>LLM</span> 2026</div>
+      <p>Symposium on Rigorous LLM Systems &mdash; a full-day workshop co-located with
+        <a href="https://sigops.org/s/conferences/atc/2026/index.html" target="_blank" rel="noopener">USENIX ATC 2026</a>,
+        Hong Kong.</p>
+      <p class="copyright">&copy; 2026 RigoLLM Organizing Committee. Website style inspired by the ATC 2026 site.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
