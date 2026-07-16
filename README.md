@@ -6,38 +6,63 @@ co-located with **USENIX ATC 2026** (Nov 15–18, 2026, Hyatt Hotel, Shatin, Hon
 Live site: **https://rigollm.github.io/rigollm26/**
 ATC 2026: https://sigops.org/s/conferences/atc/2026/index.html
 
+Built with **Jekyll** (native to GitHub Pages) so the content lives in plain
+**Markdown + YAML** — you edit text, not HTML.
+
+## Editing content (no HTML needed)
+
+| To change… | Edit this file |
+|---|---|
+| Dates, venue, title, contact, ATC link | `_config.yml` |
+| Hero tagline | `_includes/hero.md` |
+| About text | `_includes/about.md`, `_includes/about_lead.md` |
+| The two guiding principles | `_data/principles.yml` |
+| Topics of interest | `_data/topics.yml` |
+| Call-for-papers intro / note | `_includes/cfp_intro.md`, `_includes/cfp_note.md` |
+| Paper categories | `_data/categories.yml` |
+| Important dates | `_data/dates.yml` |
+| Format intro / cards | `_includes/format_intro.md`, `_data/format.yml` |
+| Organizing committee | `_data/organizers.yml` |
+| Contact blurb | `_includes/contact.md` |
+
+`.md` files are Markdown (headings, **bold**, links all work). `.yml` files are
+simple lists — copy an existing entry to add a new topic, date, or organizer.
+The page template `index.html` and styling `assets/css/style.css` rarely need edits.
+
 ## Structure
 
 ```
 website/
-├── index.html            # single-page site (hero, about, topics, CFP, dates, format, organizers, contact)
-├── assets/
-│   ├── css/style.css     # styling matched to the ATC 2026 look (accent #f82249, Open Sans / Raleway)
-│   └── js/main.js        # mobile nav + header scroll behavior
-├── .nojekyll             # serve files as-is (skip Jekyll processing)
+├── _config.yml            # headline facts + Jekyll settings
+├── index.html             # Jekyll template (assembles the data + markdown)
+├── _data/*.yml            # structured lists (topics, organizers, dates, …)
+├── _includes/*.md         # prose sections, in Markdown
+├── assets/css/style.css   # ATC 2026-inspired styling (accent #f82249)
+├── assets/js/main.js      # mobile nav + header scroll
+├── Gemfile                # matches the GitHub Pages build
 └── README.md
 ```
-
-The site is static, dependency-free (fonts via Google Fonts CDN), and responsive.
-Content is drawn from the workshop proposal (`../proposal_overleaf/intro.tex`).
-
-## Deploy (GitHub Pages)
-
-The repository is `RigoLLM/rigollm26`. To publish:
-
-1. Push to `main`.
-2. In the repo, go to **Settings → Pages**.
-3. Under **Build and deployment**, set **Source = Deploy from a branch**,
-   **Branch = `main`**, **Folder = `/website`** (or move the contents to the repo root).
-4. Save. The site publishes at `https://rigollm.github.io/rigollm26/`.
-
-> If Pages cannot serve from a subfolder in your setup, either (a) use a `main` →
-> `/website` mapping, or (b) publish `website/` to the repo root / a `gh-pages` branch.
 
 ## Local preview
 
 ```bash
 cd website
-python3 -m http.server 8000
-# open http://localhost:8000
+bundle install                 # first time only
+bundle exec jekyll serve        # → http://localhost:4000/rigollm26/
 ```
+
+## Deploy (GitHub Pages)
+
+The repository is `RigoLLM/rigollm26`.
+
+1. Push to `main`.
+2. Repo **Settings → Pages**.
+3. **Source = Deploy from a branch**, **Branch = `main`**, **Folder = `/website`**. Save.
+
+GitHub builds the Jekyll site automatically and publishes it at
+`https://rigollm.github.io/rigollm26/`.
+
+> The repo is currently **private**; GitHub Pages on a private repo requires a
+> paid plan. Either upgrade the plan, or make the repo public (it contains only
+> website code). The `baseurl` in `_config.yml` is set to `/rigollm26` to match
+> the project-page URL — change it if the repo is renamed.
