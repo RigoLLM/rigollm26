@@ -17,6 +17,7 @@ workshop:
   short_name: RigoLLM
   date: "November 15, 2026"
   venue: "Hyatt Hotel, Shatin, Hong Kong"
+  location: "Regency Ballroom II"
   format: "Full-day, hybrid"
   colocated_with: "USENIX ATC 2026"
   atc_url: "https://sigops.org/s/conferences/atc/2026/index.html"
