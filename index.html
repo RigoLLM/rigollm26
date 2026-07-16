@@ -86,11 +86,11 @@
         <h2>Topics of Interest</h2>
         <p>We call for submissions on topics including, but not limited to:</p>
       </div>
-      <div class="topics-grid">
+      <ul class="topics-list">
         {% for topic in site.data.topics %}
-        <div class="topic-card"><span class="num">{{ forloop.index }}</span><h4>{{ topic }}</h4></div>
+        <li><span class="num">{{ forloop.index }}</span><span class="txt">{{ topic }}</span></li>
         {% endfor %}
-      </div>
+      </ul>
     </div>
   </section>
 
