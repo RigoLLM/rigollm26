@@ -1,3 +1,10 @@
-.DS_Storet
+.DS_Store
 cheng*
 
+# Jekyll build output & local gem bundle
+_site/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+.bundle/
+Gemfile.lock
