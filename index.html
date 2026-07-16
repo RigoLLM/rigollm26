@@ -167,21 +167,14 @@
         <span class="kicker">Committee</span>
         <h2>Organizing Committee</h2>
       </div>
-      <div class="org-grid">
+      <ul class="org-list">
         {% for o in site.data.organizers %}
-        <div class="org-card">
-          <div class="org-head">
-            <div class="avatar">{{ o.initials }}</div>
-            <div>
-              <h4>{{ o.name }}{% if o.primary %} <span class="primary-badge">Primary contact</span>{% endif %}</h4>
-              <div class="affil">{{ o.affiliation }}</div>
-            </div>
-          </div>
-          <p class="bio">{{ o.bio }}</p>
-          <div class="email"><a href="mailto:{{ o.email }}">{{ o.email }}</a></div>
-        </div>
+        <li>
+          <span class="org-name">{{ o.name }}{% if o.primary %} <span class="primary-badge">Primary contact</span>{% endif %}</span>
+          <span class="org-affil">{{ o.affiliation }}</span>
+        </li>
         {% endfor %}
-      </div>
+      </ul>
     </div>
   </section>
 
