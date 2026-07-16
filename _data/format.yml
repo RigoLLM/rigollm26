@@ -1,0 +1,16 @@
+# Workshop format cards. `icon` is any single character or emoji.
+- icon: "★"
+  title: Keynotes
+  desc: One research-oriented keynote and one industry keynote presenting operational experience.
+
+- icon: "☰"
+  title: Paper Presentations
+  desc: Research papers, extended abstracts, and invited talks on recent high-impact published work.
+
+- icon: "▣"
+  title: Poster Session
+  desc: A unified poster session where all accepted and presented work promotes direct interaction.
+
+- icon: "◉"
+  title: Round-Table
+  desc: A two-hour organizer-led discussion on foundational questions and core unsolved problems.

@@ -1,0 +1,8 @@
+# The two guiding principles shown beside the About text.
+- title: Rigor in techniques & solutions
+  desc: Prioritizing formalism, systematic methods, and principled design over ad hoc heuristics.
+
+- title: Non-ambiguity in problem formulation
+  desc: >-
+    Formally defined problems with explicit correctness specifications — making LLM
+    systems checkable and analyzable as engineered systems.

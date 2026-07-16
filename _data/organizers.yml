@@ -1,0 +1,48 @@
+# Organizing committee. `initials` shows in the avatar; set `primary: true` for the primary contact.
+- name: Cheng Tan
+  initials: CT
+  affiliation: Northeastern University
+  email: c.tan@northeastern.edu
+  primary: true
+  bio: >-
+    Assistant professor at Khoury College of Computer Sciences. Recipient of the
+    SOSP'17 Best Paper Award, ASPLOS'23 Distinguished Artifact Award, MSRA StarTrack
+    Scholar, and NSF CAREER Award. Chaired New England Systems Day'25, the OSDI'25
+    mentoring program, and the VLDB SCCP'26 workshop.
+
+- name: Youshan Miao
+  initials: YM
+  affiliation: Microsoft Research
+  email: yomia@microsoft.com
+  bio: >-
+    Principal Researcher at Microsoft Research Asia, specializing in large-scale AI
+    systems, distributed training, and infrastructure for LLMs. Core contributor to
+    nnScaler, which supported pre-training and fine-tuning of Microsoft's in-house
+    language models including YOCO and DiffTransformer.
+
+- name: Chang Lou
+  initials: CL
+  affiliation: University of Virginia
+  email: chlou@virginia.edu
+  bio: >-
+    Tenure-track Assistant Professor in the Department of Computer Science. His
+    research focuses on building robust and highly available distributed systems.
+    He received his Ph.D. from Johns Hopkins University in 2023.
+
+- name: Zhen Zhang
+  initials: ZZ
+  affiliation: AWS
+  email: zhzhn@amazon.com
+  bio: >-
+    Senior Applied Scientist at Amazon Web Services, specializing in large-scale
+    distributed training and reliability for large language models and multi-modal
+    systems. He earned his Ph.D. in Computer Science from Johns Hopkins University in 2022.
+
+- name: Yunchi Lu
+  initials: YL
+  affiliation: University of Michigan
+  email: yunchi@umich.edu
+  bio: >-
+    Ph.D. candidate in Computer Science and Engineering. His research focuses on the
+    correctness, reliability, and stability of ML systems and AI infrastructure, with
+    an emphasis on parallelization correctness for distributed training.

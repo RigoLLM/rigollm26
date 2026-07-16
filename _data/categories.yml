@@ -1,0 +1,19 @@
+# Paper categories shown under "Call for Papers".
+- name: Research Papers
+  tag: Up to 4 pages
+  desc: >-
+    Work in the broad area of rigorous LLM systems. Submissions may present
+    completed techniques or novel and promising ideas that require further
+    development.
+
+- name: Extended Abstracts
+  tag: 1 page
+  desc: >-
+    Researchers and practitioners are invited to describe early-stage work
+    that is not yet ready for full publication.
+
+- name: High-Impact Work
+  tag: Invited / revisited
+  desc: >-
+    Submissions that revisit previously published results from a new
+    perspective, or describe extensions of prior work by the authors.
