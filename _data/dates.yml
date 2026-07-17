@@ -1,10 +1,10 @@
 # Important dates. Set `highlight: true` to emphasize a row (e.g. the workshop day).
-- label: Papers due
-  date: "August 10, 2026"
-- label: Notification of acceptance
-  date: "September 10, 2026"
-- label: Camera-ready submission
-  date: "September 20, 2026"
+- label: Paper deadline
+  date: "September 4, 2026"
+- label: Notification deadline
+  date: "October 2, 2026"
+- label: Camera-ready
+  date: "October 9, 2026"
 - label: Workshop day
   date: "November 15, 2026"
   highlight: true
