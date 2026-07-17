@@ -8,7 +8,7 @@ title: RigoLLM 2026
 tagline: Symposium on Rigorous LLM Systems
 description: >-
   RigoLLM 2026 — Symposium on Rigorous LLM Systems, a full-day workshop
-  co-located with USENIX ATC 2026 in Hong Kong. Advancing principled
+  co-located with ACM ATC 2026 in Hong Kong. Advancing principled
   approaches to building LLM systems with explicit correctness guarantees.
 
 # Headline facts (shown in the hero, footer, and contact box)
@@ -19,7 +19,7 @@ workshop:
   venue: "Hyatt Hotel, Shatin, Hong Kong"
   location: "Regency Ballroom II"
   format: "Full-day, hybrid"
-  colocated_with: "USENIX ATC 2026"
+  colocated_with: "ACM ATC 2026"
   atc_url: "https://sigops.org/s/conferences/atc/2026/index.html"
   colocation_dates: "Nov 15–18, 2026"
   contact_name: "Cheng Tan"

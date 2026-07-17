@@ -1,7 +1,7 @@
 # RigoLLM 2026 — Website
 
 Website for the **Symposium on Rigorous LLM Systems (RigoLLM)**, a full-day workshop
-co-located with **USENIX ATC 2026** (Nov 15–18, 2026, Hyatt Hotel, Shatin, Hong Kong).
+co-located with **ACM ATC 2026** (Nov 15–18, 2026, Hyatt Hotel, Shatin, Hong Kong).
 
 Live site: **https://rigollm.github.io/rigollm26/**
 ATC 2026: https://sigops.org/s/conferences/atc/2026/index.html
