@@ -19,6 +19,8 @@ Built with **Jekyll** (native to GitHub Pages) so the content lives in plain
 | The two guiding principles | `_data/principles.yml` |
 | Topics of interest | `_data/topics.yml` |
 | Call-for-papers intro / note | `_includes/cfp_intro.md`, `_includes/cfp_note.md` |
+| Submission instructions (template, double-blind, AoE) | `_includes/cfp_submission.md` |
+| HotCRP submission link | `_config.yml` (`workshop.submission_url`) |
 | Paper categories | `_data/categories.yml` |
 | Important dates | `_data/dates.yml` |
 | Format intro / cards | `_includes/format_intro.md`, `_data/format.yml` |

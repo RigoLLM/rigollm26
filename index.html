@@ -115,7 +115,14 @@
         {% endfor %}
       </div>
       <div class="note">
+        {% capture cfp_submission %}{% include cfp_submission.md %}{% endcapture %}{{ cfp_submission | markdownify }}
+      </div>
+      <div class="note">
         {% capture cfp_note %}{% include cfp_note.md %}{% endcapture %}{{ cfp_note | markdownify }}
+      </div>
+      <div class="cfp-submit">
+        <a href="{{ site.workshop.submission_url }}" target="_blank" rel="noopener" class="btn btn-primary">Submit a Paper</a>
+        <p>Submissions are handled through HotCRP: <a href="{{ site.workshop.submission_url }}" target="_blank" rel="noopener">{{ site.workshop.submission_url }}</a></p>
       </div>
     </div>
   </section>

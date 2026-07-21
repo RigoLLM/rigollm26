@@ -25,6 +25,7 @@ workshop:
   contact_name: "Cheng Tan"
   contact_affiliation: "Northeastern University"
   contact_email: "c.tan@northeastern.edu"
+  submission_url: "https://rigollm26.hotcrp.com/"
 
 # ── Jekyll build settings ──
 markdown: kramdown
