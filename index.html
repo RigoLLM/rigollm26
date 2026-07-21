@@ -197,7 +197,6 @@
         <h3>Questions about {{ site.title }}?</h3>
         {% capture contact %}{% include contact.md %}{% endcapture %}{{ contact | markdownify }}
         <div class="big-email"><a href="mailto:{{ site.workshop.contact_email }}">{{ site.workshop.contact_email }}</a></div>
-        <p>{{ site.workshop.contact_name }} · {{ site.workshop.contact_affiliation }}</p>
         <p>For venue, registration, and travel, see the
           <a href="{{ site.workshop.atc_url }}" target="_blank" rel="noopener">{{ site.workshop.colocated_with }} website</a>.</p>
       </div>
