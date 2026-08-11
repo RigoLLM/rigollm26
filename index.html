@@ -33,6 +33,7 @@
         <li><a href="#format">Format</a></li>
         -->
         <li><a href="#organizers">Organizers</a></li>
+        <li><a href="#pc">Program Committee</a></li>
         <li><a href="#contact" class="cta">Contact</a></li>
       </ul>
     </div>
@@ -180,6 +181,24 @@
         <li>
           <span class="org-name">{{ o.name }}</span>
           <span class="org-affil">{{ o.affiliation }}</span>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+
+  <!-- Program Committee -->
+  <section id="pc" class="pc-section">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Committee</span>
+        <h2>Program Committee</h2>
+      </div>
+      <ul class="org-list pc-list">
+        {% for m in site.data.pc %}
+        <li>
+          <span class="org-name">{{ m.name }}</span>
+          <span class="org-affil">{{ m.affiliation }}</span>
         </li>
         {% endfor %}
       </ul>
