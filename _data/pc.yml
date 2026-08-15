@@ -1,4 +1,4 @@
-# Program committee, listed alphabetically by last name.
+# Program committee.
 # Organizing committee members (see organizers.yml) also serve on the PC and are included here.
 
 - name: Youshan Miao
@@ -9,6 +9,9 @@
 
 - name: Ryan Huang
   affiliation: University of Michigan
+
+- name: Tianyin Xu
+  affiliation: University of Illinois Urbana-Champaign
 
 - name: Xian Zhang
   affiliation: Microsoft Research
