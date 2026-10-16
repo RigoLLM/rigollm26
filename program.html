@@ -68,7 +68,7 @@
                 <span class="talk-time">{{ t.time }}</span>
                 <div>
                   <strong>{{ t.title }}</strong>
-                  <span class="talk-tag tag-{{ t.type }}">{% if t.type == "invited" %}Invited Talk{% elsif t.type == "paper" %}Workshop Paper{% else %}Extended Abstract{% endif %}</span>
+                  <span class="talk-tag tag-{{ t.type }}">{% if t.type == "invited" %}High-Impact Work{% elsif t.type == "paper" %}Workshop Paper{% else %}Extended Abstract{% endif %}</span>
                   {% if t.venue %}<span class="talk-venue">({{ t.venue }})</span>{% endif %}
                   <div class="talk-authors"><em>{{ t.authors }}</em></div>
                 </div>

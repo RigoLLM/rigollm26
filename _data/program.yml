@@ -1,6 +1,6 @@
 # Tentative program — edit this file to update program.html.
 # kind: break | plenary | keynote | session | discussion
-# talk type: invited | paper | abstract
+# talk type: invited (shown as "High-Impact Work") | paper | abstract
 - time: "9:00–9:10"
   kind: plenary
   title: Opening Remarks
@@ -44,12 +44,7 @@
       title: "TTTR: Record, Replay, and Steer AI"
       authors: "Cheng Tan (Northeastern University)"
 
-- time: "11:45–12:00"
-  kind: discussion
-  title: "Session 1 Joint Q&A"
-  note: "All Session 1 speakers"
-
-- time: "12:00–13:30"
+- time: "11:45–13:30"
   kind: break
   title: Lunch
 
