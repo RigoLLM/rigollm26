@@ -24,7 +24,9 @@
   talks:
     - time: "10:40–10:55"
       type: invited
-      title: "RepDL: Bit-level Reproducible Deep Learning Training and Inference"
+      title: "Bit-Accurate Modeling of GPU Matrix Multiply-Accumulate Units: Demystifying Numerical Discrepancy and Accuracy"
+      url: "https://arxiv.org/abs/2511.10909"
+      venue: "MICRO"
       authors: "Peichen Xie (Microsoft Research)"
     - time: "10:55–11:10"
       type: paper
