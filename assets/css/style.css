@@ -508,3 +508,5 @@ section { padding: 84px 0; }
   .prog-item { grid-template-columns: 1fr; gap: 4px; padding: 16px 18px; }
   .prog-talks li { grid-template-columns: 1fr; gap: 2px; }
 }
+.prog-talks strong a { color: var(--ink); }
+.prog-talks strong a:hover { color: var(--ink); text-decoration: underline; }
