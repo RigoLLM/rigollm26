@@ -67,7 +67,7 @@
               <li>
                 <span class="talk-time">{{ t.time }}</span>
                 <div>
-                  <strong>{% if t.url %}<a href="{{ t.url }}" target="_blank" rel="noopener">{{ t.title }}</a>{% else %}{{ t.title }}{% endif %}</strong>
+                  <strong>{% if t.url %}<a href="{% if t.url contains '://' %}{{ t.url }}{% else %}{{ t.url | relative_url }}{% endif %}" target="_blank" rel="noopener">{{ t.title }}</a>{% else %}{{ t.title }}{% endif %}</strong>
                   <span class="talk-tag tag-{{ t.type }}">{% if t.type == "invited" %}High-Impact Work{% elsif t.type == "paper" %}Workshop Paper{% else %}Extended Abstract{% endif %}</span>
                   {% if t.venue %}<span class="talk-venue">({{ t.venue }})</span>{% endif %}
                   <div class="talk-authors"><em>{{ t.authors }}</em></div>

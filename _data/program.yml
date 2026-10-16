@@ -31,19 +31,23 @@
     - time: "10:55–11:10"
       type: paper
       title: "Vitamin-E: Determinism-Preserving GPU Spatial Sharing for LLM Systems"
+      url: "/papers/rigollm26-77.pdf"
       authors: "Zhenyuan Yang (ISCAS / UCAS), Wenxin Zheng (Shanghai Jiao Tong University), Mingyu Li (ISCAS / UCAS)"
     - time: "11:10–11:25"
       type: paper
       title: "ESPEON: Verifying the Predestined Execution of Deterministic LLM Inference"
+      url: "/papers/rigollm26-84.pdf"
       authors: "You-Liang Huang (Boston University), Yi Pan (UC Berkeley), Cheng Tan (Northeastern University), Yigong Hu (Boston University)"
     - time: "11:25–11:40"
       type: invited
       title: "DriftBench: Measuring and Predicting Infrastructure Drift in LLM Serving Systems"
+      url: "https://mlsys.org/virtual/2026/oral/3799"
       venue: "MLSys '26"
       authors: "Gianluigi Vitale"
     - time: "11:40–11:45"
       type: abstract
       title: "TTTR: Record, Replay, and Steer AI"
+      url: "/papers/rigollm26-3.pdf"
       authors: "Cheng Tan (Northeastern University)"
 
 - time: "11:45–13:30"
@@ -65,11 +69,13 @@
     - time: "14:30–14:45"
       type: invited
       title: "SDCs in the Wild: Characterizing and Diagnosing SDC-Defective GPUs in Production LLM Training"
+      url: "https://www.usenix.org/conference/osdi26/presentation/zheng"
       venue: "OSDI '26"
       authors: "Wenxin Zheng (Shanghai Jiao Tong University)"
     - time: "14:45–15:00"
       type: invited
       title: "TTrace: Lightweight Error Checking and Diagnosis for Distributed Training"
+      url: "https://arxiv.org/abs/2506.09280"
       venue: "NeurIPS '26 spotlight"
       authors: "Haitian Jiang (New York University)"
     - time: "15:00–15:15"
@@ -79,6 +85,7 @@
     - time: "15:15–15:30"
       type: paper
       title: "SemServe: A Systematic View of Exploiting Application Semantics in Agentic Serving"
+      url: "/papers/rigollm26-25.pdf"
       authors: "Yaohua Xi, Minchen Yu (The Chinese University of Hong Kong, Shenzhen)"
 
 - time: "15:30–16:00"
@@ -93,14 +100,17 @@
     - time: "16:00–16:15"
       type: paper
       title: "High-Entropy String Hallucinations in LLM Inference: Quantization Sensitivity and Source-Constrained Decoding"
+      url: "/papers/rigollm26-26.pdf"
       authors: "Jiwei Xu (Beijing University of Chemical Technology), Wei Jiang (The National Police University for Criminal Justice), Tao Wang (ISCAS)"
     - time: "16:15–16:20"
       type: abstract
       title: "SICD: A Domain-Aware Evaluation of Semantic Drift to Adversarial Diagnostic Interference"
+      url: "/papers/rigollm26-50.pdf"
       authors: "Shouraya Pendgaonkar (Hightstown High School), Sameeksha Pendgaonkar (University of Pittsburgh)"
     - time: "16:20–16:25"
       type: abstract
       title: "Can Formal Verification Match AI Code Generation Speed?"
+      url: "/papers/rigollm26-12.pdf"
       authors: "Mingyu Li, Zhanbo Wang (ISCAS / UCAS)"
 
 - time: "16:25–16:50"
