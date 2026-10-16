@@ -445,3 +445,66 @@ section { padding: 84px 0; }
   .nav-links a.cta { border-radius: 0; text-align: left; }
   .about-grid { grid-template-columns: 1fr; }
 }
+
+/* ---------- Program page ---------- */
+.program-page { padding-top: calc(var(--nav-h) + 56px); }
+.program-page .section-head .kicker { display: block; }
+.nav-links a.active { color: var(--accent); }
+.tentative-banner { max-width: 860px; margin: 0 auto 36px; border-left: 4px solid var(--accent); }
+.program {
+  max-width: 860px;
+  margin: 0 auto;
+  background: var(--white);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(17, 35, 99, 0.08);
+}
+.prog-item {
+  display: grid;
+  grid-template-columns: 120px 1fr;
+  gap: 20px;
+  padding: 20px 28px;
+  border-bottom: 1px solid var(--border);
+}
+.prog-item:last-child { border-bottom: none; }
+.prog-time {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: var(--accent);
+  white-space: nowrap;
+}
+.prog-title { font-family: "Raleway", sans-serif; font-weight: 700; color: var(--navy); font-size: 18px; }
+.prog-break { background: var(--tint); padding-top: 14px; padding-bottom: 14px; }
+.prog-break .prog-title { font-size: 16px; font-weight: 600; }
+.prog-keynote { margin-top: 4px; color: var(--ink); }
+.prog-chair { font-size: 14px; margin-top: 2px; }
+.prog-talks { list-style: none; margin: 14px 0 0; padding: 0; }
+.prog-talks li {
+  display: grid;
+  grid-template-columns: 96px 1fr;
+  gap: 12px;
+  padding: 10px 0;
+  border-top: 1px dashed var(--border);
+}
+.talk-time { font-size: 14px; font-weight: 600; color: var(--muted); white-space: nowrap; }
+.prog-talks strong { color: var(--ink); }
+.talk-tag {
+  display: inline-block;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  padding: 1px 8px;
+  border-radius: 50px;
+  margin-left: 6px;
+  vertical-align: 2px;
+}
+.tag-invited { background: #fde3e8; color: var(--accent-dark); }
+.tag-paper { background: var(--tint-2); color: var(--navy); }
+.tag-abstract { background: #eef0f4; color: var(--muted); }
+.talk-venue { font-size: 14px; margin-left: 4px; }
+.talk-authors { font-size: 14px; margin-top: 2px; }
+@media (max-width: 640px) {
+  .prog-item { grid-template-columns: 1fr; gap: 4px; padding: 16px 18px; }
+  .prog-talks li { grid-template-columns: 1fr; gap: 2px; }
+}

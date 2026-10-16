@@ -26,6 +26,7 @@ Built with **Jekyll** (native to GitHub Pages) so the content lives in plain
 | Format intro / cards | `_includes/format_intro.md`, `_data/format.yml` |
 | Organizing committee | `_data/organizers.yml` |
 | Contact blurb | `_includes/contact.md` |
+| Tentative program (separate page `program.html`) | `_data/program.yml`, `_includes/program_note.md` |
 
 `.md` files are Markdown (headings, **bold**, links all work). `.yml` files are
 simple lists — copy an existing entry to add a new topic, date, or organizer.

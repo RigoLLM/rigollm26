@@ -1,0 +1,116 @@
+# Tentative program — edit this file to update program.html.
+# kind: break | plenary | keynote | session | discussion
+# talk type: invited | paper | abstract
+- time: "9:00–9:10"
+  kind: plenary
+  title: Opening Remarks
+  chair: "Cheng Tan (Northeastern University) and Youshan Miao (Microsoft Research Asia)"
+
+- time: "9:10–10:10"
+  kind: keynote
+  title: "Keynote I"
+  speaker: "Haibo Chen"
+  talk_title: "Title TBD"
+  chair: TBD
+
+- time: "10:10–10:40"
+  kind: break
+  title: Coffee Break
+
+- time: "10:40–11:45"
+  kind: session
+  title: "Session 1: Determinism & Reproducibility"
+  chair: TBD
+  talks:
+    - time: "10:40–10:55"
+      type: invited
+      title: "RepDL: Bit-level Reproducible Deep Learning Training and Inference"
+      authors: "Peichen Xie (Microsoft Research)"
+    - time: "10:55–11:10"
+      type: paper
+      title: "Vitamin-E: Determinism-Preserving GPU Spatial Sharing for LLM Systems"
+      authors: "Zhenyuan Yang (ISCAS / UCAS), Wenxin Zheng (Shanghai Jiao Tong University), Mingyu Li (ISCAS / UCAS)"
+    - time: "11:10–11:25"
+      type: paper
+      title: "ESPEON: Verifying the Predestined Execution of Deterministic LLM Inference"
+      authors: "You-Liang Huang (Boston University), Yi Pan (UC Berkeley), Cheng Tan (Northeastern University), Yigong Hu (Boston University)"
+    - time: "11:25–11:40"
+      type: invited
+      title: "DriftBench: Measuring and Predicting Infrastructure Drift in LLM Serving Systems"
+      venue: "MLSys '26"
+      authors: "Gianluigi Vitale"
+    - time: "11:40–11:45"
+      type: abstract
+      title: "TTTR: Record, Replay, and Steer AI"
+      authors: "Cheng Tan (Northeastern University)"
+
+- time: "11:45–12:00"
+  kind: discussion
+  title: "Session 1 Joint Q&A"
+  note: "All Session 1 speakers"
+
+- time: "12:00–13:30"
+  kind: break
+  title: Lunch
+
+- time: "13:30–14:30"
+  kind: keynote
+  title: "Keynote II"
+  speaker: "Hong Xu"
+  talk_title: "Title TBD"
+  chair: TBD
+
+- time: "14:30–15:30"
+  kind: session
+  title: "Session 2: Reliability in Training & Serving"
+  chair: TBD
+  talks:
+    - time: "14:30–14:45"
+      type: invited
+      title: "SDCs in the Wild: Characterizing and Diagnosing SDC-Defective GPUs in Production LLM Training"
+      venue: "OSDI '26"
+      authors: "Wenxin Zheng (Shanghai Jiao Tong University)"
+    - time: "14:45–15:00"
+      type: invited
+      title: "TTrace: Lightweight Error Checking and Diagnosis for Distributed Training"
+      venue: "NeurIPS '26 spotlight"
+      authors: "Haitian Jiang (New York University)"
+    - time: "15:00–15:15"
+      type: paper
+      title: "DuetScale: Scaling Disaggregated LLM Serving with Joint Parallelism and Startup Optimization"
+      authors: "Authors TBA"
+    - time: "15:15–15:30"
+      type: paper
+      title: "SemServe: A Systematic View of Exploiting Application Semantics in Agentic Serving"
+      authors: "Yaohua Xi, Minchen Yu (The Chinese University of Hong Kong, Shenzhen)"
+
+- time: "15:30–16:00"
+  kind: break
+  title: Coffee Break
+
+- time: "16:00–16:25"
+  kind: session
+  title: "Session 3: Correctness, Evaluation & Verification"
+  chair: TBD
+  talks:
+    - time: "16:00–16:15"
+      type: paper
+      title: "High-Entropy String Hallucinations in LLM Inference: Quantization Sensitivity and Source-Constrained Decoding"
+      authors: "Jiwei Xu (Beijing University of Chemical Technology), Wei Jiang (The National Police University for Criminal Justice), Tao Wang (ISCAS)"
+    - time: "16:15–16:20"
+      type: abstract
+      title: "SICD: A Domain-Aware Evaluation of Semantic Drift to Adversarial Diagnostic Interference"
+      authors: "Shouraya Pendgaonkar (Hightstown High School), Sameeksha Pendgaonkar (University of Pittsburgh)"
+    - time: "16:20–16:25"
+      type: abstract
+      title: "Can Formal Verification Match AI Code Generation Speed?"
+      authors: "Mingyu Li, Zhanbo Wang (ISCAS / UCAS)"
+
+- time: "16:25–16:50"
+  kind: discussion
+  title: "Open Discussion: What Does “Rigorous” Mean for LLM Systems?"
+  note: "Moderator TBD"
+
+- time: "16:50–17:00"
+  kind: plenary
+  title: Closing Remarks
