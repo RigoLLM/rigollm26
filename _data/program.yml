@@ -81,7 +81,8 @@
     - time: "15:00–15:15"
       type: paper
       title: "DuetScale: Scaling Disaggregated LLM Serving with Joint Parallelism and Startup Optimization"
-      authors: "Authors TBA"
+      url: "/papers/rigollm26-85.pdf"
+      authors: "Yihao Zheng, Zhiyuan Tan, Yicheng Huo, Bohui Wu, Yiyun Zheng, Minchen Yu (The Chinese University of Hong Kong, Shenzhen)"
     - time: "15:15–15:30"
       type: paper
       title: "SemServe: A Systematic View of Exploiting Application Semantics in Agentic Serving"
