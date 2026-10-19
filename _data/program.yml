@@ -11,13 +11,12 @@
   title: "Keynote I"
   speaker: "Haibo Chen"
   talk_title: "Title TBD"
-  chair: TBD
 
 - time: "10:10–10:40"
   kind: break
   title: Coffee Break
 
-- time: "10:40–11:45"
+- time: "10:40–11:48"
   kind: session
   title: "Session 1: Determinism & Reproducibility"
   chair: TBD
@@ -44,13 +43,13 @@
       url: "https://mlsys.org/virtual/2026/oral/3799"
       venue: "MLSys '26"
       authors: "Gianluigi Vitale"
-    - time: "11:40–11:45"
+    - time: "11:40–11:48"
       type: abstract
       title: "TTTR: Record, Replay, and Steer AI"
       url: "/papers/rigollm26-3.pdf"
       authors: "Cheng Tan (Northeastern University)"
 
-- time: "11:45–13:30"
+- time: "11:48–13:30"
   kind: break
   title: Lunch
 
@@ -59,7 +58,6 @@
   title: "Keynote II"
   speaker: "Hong Xu"
   talk_title: "Title TBD"
-  chair: TBD
 
 - time: "14:30–15:30"
   kind: session
@@ -93,7 +91,7 @@
   kind: break
   title: Coffee Break
 
-- time: "16:00–16:25"
+- time: "16:00–16:31"
   kind: session
   title: "Session 3: Correctness, Evaluation & Verification"
   chair: TBD
@@ -103,18 +101,18 @@
       title: "High-Entropy String Hallucinations in LLM Inference: Quantization Sensitivity and Source-Constrained Decoding"
       url: "/papers/rigollm26-26.pdf"
       authors: "Jiwei Xu (Beijing University of Chemical Technology), Wei Jiang (The National Police University for Criminal Justice), Tao Wang (ISCAS)"
-    - time: "16:15–16:20"
+    - time: "16:15–16:23"
       type: abstract
       title: "SICD: A Domain-Aware Evaluation of Semantic Drift to Adversarial Diagnostic Interference"
       url: "/papers/rigollm26-50.pdf"
       authors: "Shouraya Pendgaonkar (Hightstown High School), Sameeksha Pendgaonkar (University of Pittsburgh)"
-    - time: "16:20–16:25"
+    - time: "16:23–16:31"
       type: abstract
       title: "Can Formal Verification Match AI Code Generation Speed?"
       url: "/papers/rigollm26-12.pdf"
       authors: "Mingyu Li, Zhanbo Wang (ISCAS / UCAS)"
 
-- time: "16:25–16:50"
+- time: "16:31–16:50"
   kind: discussion
   title: "Open Discussion: What Does “Rigorous” Mean for LLM Systems?"
   note: "Moderator TBD"
