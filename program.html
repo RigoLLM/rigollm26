@@ -57,7 +57,7 @@
           <div class="prog-body">
             <div class="prog-title">{{ e.title }}</div>
             {% if e.kind == "keynote" %}
-            <div class="prog-keynote"><em>{{ e.speaker }}</em> &mdash; <strong>{{ e.talk_title }}</strong></div>
+            <div class="prog-keynote"><em>{{ e.speaker }}{% if e.speaker_affil %} ({{ e.speaker_affil }}){% endif %}</em> &mdash; <strong>{{ e.talk_title }}</strong></div>
             {% endif %}
             {% if e.chair %}<div class="prog-chair"><em>{% if e.kind == "plenary" %}{{ e.chair }}{% else %}Session Chair: {{ e.chair }}{% endif %}</em></div>{% endif %}
             {% if e.note %}<div class="prog-chair"><em>{{ e.note }}</em></div>{% endif %}

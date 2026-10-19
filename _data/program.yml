@@ -10,6 +10,7 @@
   kind: keynote
   title: "Keynote I"
   speaker: "Haibo Chen"
+  speaker_affil: "Distinguished Professor, Shanghai Jiao Tong University"
   talk_title: "Title TBD"
 
 - time: "10:10–10:40"
@@ -57,6 +58,7 @@
   kind: keynote
   title: "Keynote II"
   speaker: "Hong Xu"
+  speaker_affil: "Associate Professor, The Chinese University of Hong Kong"
   talk_title: "Title TBD"
 
 - time: "14:30–15:30"
