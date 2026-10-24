@@ -1,8 +1,7 @@
 ## Workshop Program
 
 Please check the [program]({{ '/program.html' | relative_url }}) for your session and time slot.
-All times are Hong Kong Time (HKT). The program is still tentative, so please check back
-for updates before the workshop.
+All times are Hong Kong Time (HKT).
 
 ## Talk Length
 
@@ -18,7 +17,7 @@ your talk to fit within its slot.
 
 ## In-Person Presentation
 
-RigoLLM is an **in-person workshop**. All speakers are expected to present on site at
+In-person speakers are expected to present on site at
 **{{ site.workshop.venue }}, {{ site.workshop.location }}**.
 
 - **Bring your own laptop** with your slides, plus any adapter you need to connect to the
