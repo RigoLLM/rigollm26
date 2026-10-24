@@ -16,10 +16,6 @@ for updates before the workshop.
 Session chairs will keep time strictly so every session stays on schedule. Please rehearse
 your talk to fit within its slot.
 
-The audience works on LLM systems, systems research, and verification, so you can skip
-general background. Focus on the problem, your key ideas, results, and open questions you'd
-like to discuss.
-
 ## In-Person Presentation
 
 RigoLLM is an **in-person workshop**. All speakers are expected to present on site at
@@ -31,10 +27,10 @@ RigoLLM is an **in-person workshop**. All speakers are expected to present on si
   session chair and test your laptop with the projector.
 - **Have a backup copy** of your slides (PDF on a USB drive) in case your laptop has problems.
 
-## Remote Presentation (Exceptions Only)
+## Remote Presentation
 
-Remote presentation is allowed only in exceptional cases, such as visa or travel problems,
-and must be arranged with the organizers in advance. If you cannot attend in person, please
+Remote presentation is allowed,
+but must be arranged with the organizers in advance. If you cannot attend in person, please
 email us as soon as possible.
 
 Approved remote speakers will:
