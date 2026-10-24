@@ -1,0 +1,70 @@
+---
+# Presenter instructions. Content lives in _includes/presenters.md
+---
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Instructions for Presenters — {{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="{{ '/' | relative_url }}">
+        Rigo<span>LLM</span>
+        <small>ATC 2026 Workshop</small>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
+      <ul class="nav-links">
+        <li><a href="{{ '/#about' | relative_url }}">About</a></li>
+        <li><a href="{{ '/#topics' | relative_url }}">Topics</a></li>
+        <li><a href="{{ '/#cfp' | relative_url }}">Call for Papers</a></li>
+        <li><a href="{{ '/program.html' | relative_url }}">Program</a></li>
+        <li><a href="{{ '/presenters.html' | relative_url }}" class="active">Presenters</a></li>
+        <li><a href="{{ '/#dates' | relative_url }}">Dates</a></li>
+        <!-- Program/Format section temporarily hidden — will update later
+        <li><a href="{{ '/#format' | relative_url }}">Format</a></li>
+        -->
+        <li><a href="{{ '/#organizers' | relative_url }}">Organizers</a></li>
+        <li><a href="{{ '/#pc' | relative_url }}">Program Committee</a></li>
+        <li><a href="{{ '/#contact' | relative_url }}" class="cta">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- Presenters -->
+  <section class="program-page presenters-page">
+    <div class="container">
+      <div class="section-head">
+        <span class="kicker">Speakers</span>
+        <h2>Instructions for Presenters</h2>
+        <p>{{ site.workshop.date }} &middot; {{ site.workshop.venue }} &middot; {{ site.workshop.location }}</p>
+      </div>
+      <div class="presenters-body">
+        {% capture presenters %}{% include presenters.md %}{% endcapture %}{{ presenters | markdownify }}
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="fbrand">Rigo<span>LLM</span> 2026</div>
+      <p>{{ site.workshop.full_name }} &mdash; a full-day workshop co-located with
+        <a href="{{ site.workshop.atc_url }}" target="_blank" rel="noopener">{{ site.workshop.colocated_with }}</a>,
+        Hong Kong.</p>
+      <p class="copyright">&copy; 2026 RigoLLM Organizing Committee. Website style inspired by the ATC 2026 site.</p>
+    </div>
+  </footer>
+
+  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+</body>
+</html>

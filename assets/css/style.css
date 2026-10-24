@@ -510,3 +510,31 @@ section { padding: 84px 0; }
 }
 .prog-talks strong a { color: var(--ink); }
 .prog-talks strong a:hover { color: var(--ink); text-decoration: underline; }
+
+/* ---------- Presenters page ---------- */
+.presenters-body {
+  max-width: 860px;
+  margin: 0 auto;
+  background: var(--white);
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(17, 35, 99, 0.08);
+  padding: 12px 36px 32px;
+}
+.presenters-body h2 {
+  font-size: 22px;
+  margin: 30px 0 10px;
+  padding-top: 18px;
+  border-top: 1px solid var(--border);
+}
+.presenters-body h2:first-child { border-top: none; padding-top: 10px; }
+.presenters-body p, .presenters-body li { color: var(--muted); }
+.presenters-body ul, .presenters-body ol { padding-left: 22px; }
+.presenters-body li { margin: 6px 0; }
+.presenters-body strong { color: var(--ink); }
+.presenters-body table { width: 100%; border-collapse: collapse; margin: 12px 0 16px; font-size: 15px; }
+.presenters-body th, .presenters-body td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); }
+.presenters-body th { font-family: "Raleway", sans-serif; color: var(--navy); background: var(--tint); }
+@media (max-width: 640px) {
+  .presenters-body { padding: 8px 18px 24px; }
+  .presenters-body th, .presenters-body td { padding: 8px 6px; font-size: 14px; }
+}
