@@ -104,7 +104,7 @@
   talks:
     - time: "16:00–16:15"
       type: invited
-      title: "DriftBench: Measuring and Predicting Infrastructure Drift in LLM Serving Systems"
+      title: "DriftBench and Beyond: From Infrastructure Drift to Bit-Reproducible LLM Inference Across TPU Generations"
       url: "https://mlsys.org/virtual/2026/oral/3799"
       venue: "MLSys '26"
       authors: "Gianluigi Vitale"
