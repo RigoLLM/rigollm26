@@ -546,3 +546,9 @@ section { padding: 84px 0; }
 /* Program section on the home page */
 #program .section-head .kicker { display: block; }
 #program + section { border-top: 1px solid var(--border); }
+.prog-keynote-title { margin-top: 4px; color: var(--ink); }
+.prog-bio summary { cursor: pointer; list-style: none; }
+.prog-bio summary::-webkit-details-marker { display: none; }
+.prog-bio summary .prog-label::after { content: " ▸"; font-size: 12px; }
+.prog-bio[open] summary .prog-label::after { content: " ▾"; }
+.prog-bio[open] summary { margin-bottom: 6px; }
