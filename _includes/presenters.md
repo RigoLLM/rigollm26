@@ -1,6 +1,6 @@
 ## Workshop Program
 
-Please check the [program]({{ '/program.html' | relative_url }}) for your session and time slot.
+Please check the [program]({{ '/#program' | relative_url }}) for your session and time slot.
 All times are Hong Kong Time (HKT).
 
 ## Talk Length
@@ -53,7 +53,7 @@ Please remember that your time slot is in Hong Kong Time and convert it to your 
 
 ## Before the Workshop
 
-1. Check your session and time slot in the [program]({{ '/program.html' | relative_url }}).
+1. Check your session and time slot in the [program]({{ '/#program' | relative_url }}).
 2. Prepare a talk that fits within your slot, leaving time for Q&A.
 3. **In-person speakers:** bring your laptop, adapter, and a backup PDF of your slides.
 4. **Remote speakers (pre-approved only):** send your backup video by November 8, 2026, and

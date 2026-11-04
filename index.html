@@ -26,9 +26,9 @@
       <button class="nav-toggle" aria-label="Toggle navigation">&#9776;</button>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
+        <li><a href="#program">Program</a></li>
         <li><a href="#topics">Topics</a></li>
         <li><a href="#cfp">Call for Papers</a></li>
-        <li><a href="{{ '/program.html' | relative_url }}">Program</a></li>
         <li><a href="{{ '/presenters.html' | relative_url }}">Presenters</a></li>
         <li><a href="#dates">Dates</a></li>
         <!-- Program/Format section temporarily hidden — will update later
@@ -54,7 +54,7 @@
         <div><span class="dot">&#9679;</span> {{ site.workshop.format }}</div>
       </div>
       <div class="hero-actions">
-        <a href="#cfp" class="btn btn-primary">Call for Papers</a>
+        <a href="#program" class="btn btn-primary">View Program</a>
         <a href="{{ site.workshop.atc_url }}" target="_blank" rel="noopener" class="btn btn-outline">About {{ site.workshop.colocated_with }}</a>
       </div>
     </div>
@@ -83,6 +83,10 @@
       </div>
     </div>
   </section>
+
+  <!-- Program -->
+  <section id="program">
+{% include program_body.html %}  </section>
 
   <!-- Topics -->
   <section id="topics">

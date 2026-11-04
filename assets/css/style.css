@@ -538,3 +538,11 @@ section { padding: 84px 0; }
   .presenters-body { padding: 8px 18px 24px; }
   .presenters-body th, .presenters-body td { padding: 8px 6px; font-size: 14px; }
 }
+.prog-abstract { margin-top: 10px; font-size: 15px; color: var(--muted); }
+.prog-abstract p { margin: 0 0 8px; }
+.prog-abstract .prog-label { font-weight: 700; color: var(--navy); font-family: "Raleway", sans-serif; }
+.prog-abstract .prog-label + p { display: inline; }
+.prog-abstract .prog-label + p + p { margin-top: 8px; }
+/* Program section on the home page */
+#program .section-head .kicker { display: block; }
+#program + section { border-top: 1px solid var(--border); }
