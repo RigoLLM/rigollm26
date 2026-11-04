@@ -1,11 +1,13 @@
-# Program committee.
+# Program committee. Optional `role` (e.g. PC Co-Chair) shows as a badge after the name.
 # Organizing committee members (see organizers.yml) also serve on the PC and are included here.
 
 - name: Youshan Miao
   affiliation: Microsoft Research
+  role: PC Co-Chair
 
 - name: Cheng Tan
   affiliation: Northeastern University
+  role: PC Co-Chair
 
 - name: Ryan Huang
   affiliation: University of Michigan

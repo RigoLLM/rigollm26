@@ -203,7 +203,7 @@
       <ul class="org-list pc-list">
         {% for m in site.data.pc %}
         <li>
-          <span class="org-name">{{ m.name }}</span>
+          <span class="org-name">{{ m.name }}</span>{% if m.role %}<span class="primary-badge">{{ m.role }}</span>{% endif %}
           <span class="org-affil">{{ m.affiliation }}</span>
         </li>
         {% endfor %}
