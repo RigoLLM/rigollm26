@@ -38,7 +38,7 @@
       authors: "Peichen Xie (Microsoft Research)"
     - time: "10:45–11:00"
       type: invited
-      title: "TTrace: Lightweight Error Checking and Diagnosis for Distributed Training"
+      title: "nnTrace: Detecting and Localizing Silent Bugs in Distributed Training"
       url: "https://arxiv.org/abs/2506.09280"
       venue: "NeurIPS '26 spotlight"
       authors: "Haitian Jiang (New York University)"
