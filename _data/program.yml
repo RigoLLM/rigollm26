@@ -26,7 +26,7 @@
 - time: "10:30–11:46"
   kind: session
   title: "Session 1: Numerical Correctness & Reproducibility"
-  chair: TBD
+  chair: "Youshan Miao (Microsoft Research Asia)"
   talks:
     - time: "10:30–10:45"
       type: invited
@@ -83,7 +83,7 @@
 - time: "14:30–15:30"
   kind: session
   title: "Session 2: Reliable Training & Serving"
-  chair: TBD
+  chair: "Zhenyuan Yang (ISCAS / UCAS)"
   talks:
     - time: "14:30–14:45"
       type: invited
@@ -114,7 +114,7 @@
 - time: "16:00–16:23"
   kind: session
   title: "Session 3: Drift & Verification"
-  chair: TBD
+  chair: "Peichen Xie (Microsoft Research)"
   talks:
     - time: "16:00–16:15"
       type: invited
@@ -129,9 +129,12 @@
       authors: "Mingyu Li, Zhanbo Wang (ISCAS / UCAS)"
 
 - time: "16:23–16:50"
-  kind: discussion
-  title: "Open Discussion: What Does “Rigorous” Mean for LLM Systems?"
-  note: "Moderator TBD"
+  kind: tutorial
+  title: "Tutorial: MMA-Sim"
+  speaker: "Peichen Xie"
+  speaker_affil: "Microsoft Research"
+  abstract: |
+    [MMA-Sim](https://github.com/microsoft/MMA-Sim) is an open-source simulator that reproduces the arithmetic of GPU matrix multiply-accumulate units, such as NVIDIA Tensor Cores and AMD Matrix Cores, bit for bit.
 
 - time: "16:50–17:00"
   kind: plenary

@@ -13,9 +13,9 @@
           <div class="prog-time">{{ e.time }}</div>
           <div class="prog-body">
             <div class="prog-title">{{ e.title }}</div>
-            {% if e.kind == "keynote" %}
+            {% if e.kind == "keynote" or e.kind == "tutorial" %}
             <div class="prog-keynote"><em>{{ e.speaker }}{% if e.speaker_affil %} ({{ e.speaker_affil }}){% endif %}</em></div>
-            <div class="prog-keynote-title"><strong>{{ e.talk_title }}</strong></div>
+            {% if e.talk_title %}<div class="prog-keynote-title"><strong>{% if e.url %}<a href="{{ e.url }}" target="_blank" rel="noopener">{{ e.talk_title }}</a>{% else %}{{ e.talk_title }}{% endif %}</strong></div>{% endif %}
             {% if e.abstract %}<div class="prog-abstract"><span class="prog-label">Abstract:</span> {{ e.abstract | markdownify }}</div>{% endif %}
             {% if e.bio %}<details class="prog-abstract prog-bio"><summary><span class="prog-label">Speaker Bio</span></summary>{{ e.bio | markdownify }}</details>{% endif %}
             {% endif %}

@@ -552,3 +552,5 @@ section { padding: 84px 0; }
 .prog-bio summary .prog-label::after { content: " ▸"; font-size: 12px; }
 .prog-bio[open] summary .prog-label::after { content: " ▾"; }
 .prog-bio[open] summary { margin-bottom: 6px; }
+.prog-keynote-title a { color: var(--ink); }
+.prog-keynote-title a:hover { color: var(--ink); text-decoration: underline; }
